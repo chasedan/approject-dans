@@ -1,22 +1,38 @@
 body{
     font-family: 'Source Sans Pro';
+    line-height: 1.2;
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: 400;
 }
 h1{
+    font-size: 2rem;
     font-weight: 700;
-    margin-top: .5rem;
+    line-height: 1.5;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.5rem;
 }
 header.bg-primary{
     box-shadow: 0px 7px 10px #CDCDCD;
 }
-h2.card-header.bg-secondary.bg-gradient {
-    color: #ffffff;
+.container.wrap{
+    box-shadow: 0px 7px 10px #cdcdcd;
+}
+
+h2.card-header.c-grad {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
 }
 .navbar-brand, .navbar-brand:hover{
     font-size: 2rem;
     color: #ffffff;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
 }
 li.nav-item.dropdown {
     border: 1px solid #ffffff;
@@ -28,7 +44,12 @@ li.nav-item.dropdown {
 .nav-link, .nav-link:hover, .navbar-brand:active{
     color: #ffffff;
 }
-
+footer.footer{
+    box-shadow: 0px 0px 10px #CDCDCD;
+}
+div.card.m-3:hover{
+    box-shadow: 0px 0px 10px #CDCDCD;
+}
 @media (min-width: 992px){
 .navbar-expand-lg .navbar-nav .nav-link{
  color: #ffffff;
